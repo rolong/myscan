@@ -36,7 +36,7 @@
       </div>
 
       <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-        <h3>CRASCAN</h3>
+        <h3>CRA Network</h3>
         <ul>
           <!--
           <li><a href="<%= issue_link(@conn) %>" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Submit an Issue") %></a></li>
@@ -87,13 +87,14 @@
       <% end %>
     </div>
 
+    <!--
     <% version = version() %>
-
     <%= unless ignore_version?(version) do %>
       <% release_link = release_link(version) %>
       <div>
         <%= gettext("Version") %>: <%= release_link %>
       </div>
     <% end %>
+    -->
   </div>
 </footer>
