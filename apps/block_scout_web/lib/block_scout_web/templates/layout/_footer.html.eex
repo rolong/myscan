@@ -19,7 +19,7 @@
 
     <div class="row">
       <div class="col-xs-12 col-lg-3">
-        <p class="footer-info-text"><%= gettext("CRASCAN is a Block Explorer and Analytics Platform for CRA Network") %></p>
+        <p class="footer-info-text"><%= gettext("OPCSCAN is a Block Explorer and Analytics Platform for OPC Network") %></p>
         <!--
         <div class="footer-social-icons">
           <a href="<%= Application.get_env(:block_scout_web, :footer)[:github_link] %>" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
@@ -36,7 +36,7 @@
       </div>
 
       <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-        <h3>CRA Network</h3>
+        <h3>OPC Network</h3>
         <ul>
           <!--
           <li><a href="<%= issue_link(@conn) %>" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Submit an Issue") %></a></li>
