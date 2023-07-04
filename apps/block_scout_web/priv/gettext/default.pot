@@ -505,7 +505,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 #, elixir-autogen, elixir-format
-msgid "CRASCAN is a Block Explorer and Analytics Platform for CRA Network."
+msgid "CRASCAN is a Block Explorer and Analytics Platform for CRC Network."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction_state/_state_change.html.eex:9
